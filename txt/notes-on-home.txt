@@ -1,0 +1,13 @@
+//home page contents should be sortable by album, artist, popularity, colors on album cover, etc. and show different data accordingly
+//forget the about page -- add a small footer that links to another site
+//add 'sign in' button on menu
+//change 'submit' button on add-album to 'sign-in' if not authenticated
+//add 'add-artist' and 'add-label' pages//clicking subit on any one of these pages should show a preview and a fixed message: 'is this correct'?
+//then we say, ok, hold on
+//check the database and see what of this data has been entered before
+--
+    check for similar names/spellings, etc.
+    ***clean data
+
+
+

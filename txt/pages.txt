@@ -1,0 +1,17 @@
+HOME
+    --album reviews
+
+USER
+    user info
+    reviews
+    favorites
+    
+DISCOVER
+    (top) reviewed albums, album reviews, or artists
+
+
+
+
+
+
+

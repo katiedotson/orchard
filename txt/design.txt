@@ -1,0 +1,54 @@
+label
+    id
+    name, string, 100 chars
+    headquarters, string, 50 chars
+    year founded, date
+
+let label = {
+    id: 'alkdjkaj',
+    name: 'Run for Cover',
+    headquarters: 'Pittsburgh, Pennsylvania',
+    year_founded: '1970'
+}
+
+let album = {
+    id: 'klkaf',
+    artist_id: 'jjlkjdf', //database value
+    title: 'abysskiss',
+    
+}
+
+album
+    id
+    artist_id
+    title, string, 100 chars
+    artist, string, 100 chars
+    description, string, 200 chars
+    label, string, 100 chars
+
+review
+    id
+    title, string, 50 chars
+    score, number, 1-10
+    username, string, 25 chars
+    review body, string, 250 chars
+    album_id
+
+user
+    id                                                                            
+    user photo, photo, png or jpg
+    username, string, 25 chars
+    reviews, array, review
+    favorites, array, album
+
+user favorites
+    user_id
+    album_id
+    favorite_id
+
+user reviews
+    user_id
+    review_id
+    user_review_id
+
+how to calculate related/reccommended -- artist, city, label, some sort of combination of these criteria?
