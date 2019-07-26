@@ -20,7 +20,7 @@ export default new Router({
       path: '/album/:album_title',
       name: 'album',
       component: Album
-    }, 
+    },
     {
       path: '/about',
       name: 'about',

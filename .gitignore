@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-config
+server/config/config.js
+src/assets/img/album_covers/*
 
 # local env files
 .env.local
