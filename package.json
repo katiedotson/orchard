@@ -23,7 +23,7 @@
     "passport-google-oauth20": "^1.0.0",
     "routes": "^2.1.0",
     "express-session": "^1.15.6",
-    "mongoose": "^5.0.0"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
