@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-var passport = require('passport');
+// var passport = require('passport');
 
 var multer = require('multer'),
     mongoClient = require('mongodb').MongoClient,
