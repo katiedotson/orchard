@@ -3,6 +3,8 @@ node_modules
 /dist
 server/config/config.js
 src/assets/img/album_covers/*
+package-lock.json
+txt/auth0.txt
 
 # local env files
 .env.local
